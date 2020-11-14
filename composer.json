@@ -1,0 +1,35 @@
+{
+    "name": "elminson/beautyDataInConsole",
+    "description": "Project password generator",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^7.4@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4@dev"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Elminson De Oleo Baez",
+            "email": "edeoleo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Elminson\\beautyDataInConsole\\": "src/",
+            "Elminson\\beautyDataInConsole\\Test\\": "tests/"
+        },
+        "psr-4": {
+            "Elminson\\beautyDataInConsole\\": "src/",
+            "Elminson\\beautyDataInConsole\\Test\\": "tests/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Elminson\\beautyDataInConsole\\": "src/",
+            "Elminson\\beautyDataInConsole\\Test\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
